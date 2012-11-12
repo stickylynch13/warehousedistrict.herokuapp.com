@@ -15,7 +15,8 @@ end
 
 gem 'jquery-rails'
 gem 'haml', '~>3.1.6'
-gem 'grape', '~> 0.2.1'
+gem 'grape', '~>0.2.1'
+gem 'sorcery', '~>0.7.13'
 
 group :test do
   gem 'cucumber-rails', '~>1.3.0'

@@ -7,6 +7,24 @@ Given /^there are (\d+) businesses$/ do |count|
   end
 end
 
+Given /^there are (\d+) general businesses$/ do |count|
+  count.to_i.times do
+    FactoryGirl.create(:business_full, :category_id => 0)
+  end
+end
+
+Given /^there are (\d+) restaurants$/ do |count|
+  count.to_i.times do
+    FactoryGirl.create(:business_full, :category_id => 1)
+  end
+end
+
+Given /^there are (\d+) real estate businesses$/ do |count|
+  count.to_i.times do
+    FactoryGirl.create(:business_full, :category_id => 2)
+  end
+end
+
 When /^I visit "(.*?)"$/ do |path|
   get path
 end

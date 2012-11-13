@@ -1,4 +1,5 @@
 class BusinessesController < ApplicationController
+  before_filter :require_login
   # GET /businesses
   # GET /businesses.json
   def index
@@ -78,6 +79,14 @@ class BusinessesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to businesses_url }
       format.json { head :no_content }
+    end
+  end
+
+private
+
+  def require_login
+    unless current_user
+      redirect_to root_url
     end
   end
 end

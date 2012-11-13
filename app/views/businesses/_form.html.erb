@@ -16,6 +16,10 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
+    <%= f.label :category %><br />
+    <%= f.select(:category_id, [['General', 0], ['Restaurant', 1], ['Real Estate', 2]]) %>
+  </div>
+  <div class="field">
     <%= f.label :address %><br />
     <%= f.text_field :address %>
   </div>
@@ -28,7 +32,7 @@
     <%= f.text_field :website %>
   </div>
   <div class="field">
-    <%= f.label :member %><br />
+    <%= f.label 'TWDA Member' %><br />
     <%= f.check_box :member %>
   </div>
   <div class="field">

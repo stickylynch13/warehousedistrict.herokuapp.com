@@ -1,6 +1,11 @@
 require 'faker'
 
+User.delete_all
 Business.delete_all
+
+User.create({username: 'keith', password: 'password'})
+User.create({username: 'donmiller', password: 'donmiller'})
+User.create({username: 'andrew', password: 'andrew'})
 
 10.times do
   Business.create({

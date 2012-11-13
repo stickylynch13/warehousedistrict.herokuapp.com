@@ -21,4 +21,32 @@ describe Business do
     end
   end
 
+  context 'fetching' do
+    before do
+      3.times { FactoryGirl.create(:business_full) }
+      3.times { FactoryGirl.create(:business_full, :category_id => 1) }
+      4.times { FactoryGirl.create(:business_full, :category_id => 2) }
+    end
+
+    it 'returns all events' do
+      all = Business.all
+      all.count.should == 10
+    end
+
+    it 'returns all general businesses' do
+      general = Business.general
+      general.count.should == 3
+    end
+
+    it 'returns all restaurants' do
+      restaurants = Business.restaurants
+      restaurants.count.should == 3
+    end
+
+    it 'returns all real estate businesses' do
+      real_estate = Business.real_estate
+      real_estate.count.should == 4
+    end
+  end
+
 end

@@ -17,12 +17,12 @@ gem 'jquery-rails'
 gem 'haml', '~>3.1.6'
 gem 'grape', '~>0.2.1'
 gem 'sorcery', '~>0.7.13'
+gem 'faker', '~>1.0.1'
 
 group :test do
   gem 'cucumber-rails', '~>1.3.0'
   gem 'capybara', '~>1.1.2'
   gem 'rspec-rails', '~>2.11.0'
   gem 'database_cleaner', '~>0.8.0'
-  gem 'faker', '~>1.0.1'
   gem 'factory_girl', '~>3.3.0'
 end

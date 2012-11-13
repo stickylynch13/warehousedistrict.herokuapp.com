@@ -24,6 +24,6 @@ Feature: Business API
   Scenario: Retrieving real estate business list
     Given I am an API user
     And there are 6 real estate businesses
-    When I visit "/api/businesses/real-estate.json"
+    When I visit "/api/businesses/real_estate.json"
     Then I should receive a valid response
     And I should see 6 businesses

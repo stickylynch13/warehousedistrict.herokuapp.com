@@ -24,5 +24,5 @@ group :test do
   gem 'rspec-rails', '~>2.11.0'
   gem 'database_cleaner', '~>0.8.0'
   gem 'faker', '~>1.0.1'
-  gem 'aws-sdk', '~> 1.6.5'
+  gem 'factory_girl', '~>3.3.0'
 end

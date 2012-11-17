@@ -346,16 +346,6 @@ end
 # create retail businesses
   Business.create({
     name: '20 N. Gallery',
-    address: '18 N. St. Clair St.', 
-    phone: '419.241.2400', 
-    website: 'http://www.20northgallery.net/',
-    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/20n.jpg', 
-    description: '20 North Gallery is the oldest-established fine art gallery in the city of Toledo. 20 North Gallery represents both traditional and contemporary artists working in a variety of media, and offers patrons residential and office consultations for art placement and installation.',
-    category_id: 3
-  })
-
-  Business.create({
-    name: '20 N. Gallery',
     address: '18 N. St. Clair St.',
     phone: '419.241.2400',
     website: 'http://www.20northgallery.net/',

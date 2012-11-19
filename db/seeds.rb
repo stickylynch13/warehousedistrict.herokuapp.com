@@ -485,3 +485,203 @@ end
     description: 'They specialize in the swanky gift. Offerings include unique jewelry, purses, wedding pieces, works of local art, and kids items.',
     category_id: 3
   })
+
+# Restaurants data
+
+Restaurant.create({
+    name: 'The Blarney',
+    address: '601 Monroe St.',
+    phone: '419.418.2339',
+    website: 'http://www.theblarneyirishpub.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/blarney.jpg',
+    description: 'This popular Irish pub serves traditional Irish fare, hosts live music and is furnished with genuine Irish decor.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'The Bronze Boar',
+    address: '20 S. Huron St.',
+    phone: '419.244.2627',
+    website: 'http://www.bronzeboar.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/bronze.jpg',
+    description: "The historic Bronze Boar, in Downtown Toledo's Historic Warehouse District, is a unique place to have a glass of wine or beer while meeting old friends and making new ones.",
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'The Café (Oliver House)',
+    address: '27 Broadway St.',
+    phone: '419.243.1302',
+    website: 'http://www.oh-thecafe.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/cafe.jpg',
+    description: 'The menu features international bistro fare in a hip urban atmosphere. Exceptional soups, salads, and sandwiches are made from scratch every day. We also feature a "du jour" menu where options change daily so that every time can be a different culinary adventure!',
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Downtown Latte',
+    address: '44 S. St. Clair St.',
+    phone: '419.243.6032',
+    website: 'http://www.downtownlatte.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/latte.jpg',
+    description: 'Located in the heart of the Warehouse District, this coffee house offers a warm, inviting atmosphere where customers can get a great cup of coffee or a delicious ice cold smoothie!',
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: "Fricker's",
+    address: '19 N. St. Clair St.',
+    phone: '419.244.9464',
+    website: 'http://www.frickers.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/frickers.jpg',
+    description: 'A full service restaurant and bar, overlooking Fifth Third field. They are famouns for their chunks and also have wings, ribs, wraps and pizza.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Homeslice',
+    address: '28 S. St. Clair St.',
+    phone: '419.724.7437',
+    website: 'http://www.facebook.com/toledo.homeslice',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/homeslice.jpg',
+    description: 'Serving lunch and dinner, Homeslice prides itself on its New York style thin crust pizza. Along with great food they have a bar and live music on the weekends.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: "Grumpy's",
+    address: '34 S. Huron St.',
+    phone: '419.241.6728',
+    website: 'http://www.grumpys.net',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/grumpys.jpg',
+    description: "Serving breakfast and lunch, this casual restaurant offers delivery, take-out, and even convenient catering for just about any occasion. Don't forget to try their famous Garbage salad!",
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: "Quimby's",
+    address: '25 S. Huron St.',
+    phone: '419.244.7222',
+    website: 'http://www.facebook.com/pages/Quimbys-at-the-Park/169821526406608',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/quimbys.jpg',
+    description: "Daily food and drink specials along with nightly entertainment (karaoke, live music, DJ's). Located across from the main enterance to 5/3 Field on Huron and Washington.",
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Maumee Bay Brewing Co (Oliver House)',
+    address: '27 Broadway St.',
+    phone: '419.243.1302',
+    website: 'http://www.oh-maumeebaybrewingco.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/maumeeb.jpg',
+    description: "Throughout the year we have 7 beers on tap at the Maumee Bay Brew Pub, including the historical Buckeye Beer. Additionally, our beers are available at all of the restaurants in the historic Oliver House. Come enjoy our craft beer paired with Toledo's best steak at Rockwell's or enjoy a pint with a pizza baked in our wood oven at the Pub.",
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: "Michael's Bar and Grill",
+    address: '901 Monroe St.',
+    phone: '419.241.3900',
+    website: '',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/michaels.jpg',
+    description: "Michael's is a bar &amp; grill that is family-friendly. We have been family-owned and operated since the 1920's. Serving breakfast and lunch.",
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: "Packo's at the Park",
+    address: '7 S. Huron St.',
+    phone: '419.246.1111',
+    website: 'http://www.tonypackos.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/packos.jpg',
+    description: 'This famous Toledo hangout offers authentic Hungarian food and is a stones throw away for the Mud Hens stadium.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Petit Fours (Oliver House)',
+    address: '27 Broadway St.',
+    phone: '419.243.1302',
+    website: 'http://www.oh-petitfours.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/petit4.jpg',
+    description: 'All of our pastries are made from scratch on the premises — made to order freshness is our specialty.Our extraordinary cakes can be customized to celebrate every occasion.',
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Pizza Papalis',
+    address: '519 Monroe St.',
+    phone: '419.244.7722',
+    website: 'http://www.pizzapapalis.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/pizzapap.jpg',
+    description: 'Pizza Papalis is the spot for authentic Chicago pizza along with a big menu of calzones, strombolis, pastas and salads. Papalis also has live entertainment and catering available.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Rockwells (Oliver House)',
+    address: '27 Broadway St.',
+    phone: '419.243.1302',
+    website: 'http://www.oh-rockwells.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/rockwells.jpg',
+    description: "Housed in the historic Oliver House, our classic, upscale steak house presents fine dining in an atmosphere of timeless elegance, offering guests the finest cuts of prime aged USDA meats, fresh seafood, and much more. The Rockwell's experience focuses on providing undeniably superior service and classically prepared cuisine in a truly impressive setting.",
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Spaghetti Warehouse',
+    address: '42 S. Superior St.',
+    phone: '419.255.5038',
+    website: 'http://www.meatballs.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/spaghetti.jpg',
+    description: 'This Italian restaurant offers a menu full of Italian favorites along with delicious appetizers, desserts, and a wide variety of drinks.',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Table 44',
+    address: '610 Monroe St.',
+    phone: '419.725.0044',
+    website: 'http://www.tableforty4.com',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/img/table.jpg',
+    description: '(JUST OUTSIDE THE DISTRICT) This ecletic downtown hot spot has a full bar and extensive menu for any diner. With a casual atmosphere its a great place to stop before or after your favorite downtown event!',
+    member: false,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Ye Olde Cock n Bull Tavern',
+    address: '9 N. Huron St.',
+    phone: '419.244.2855',
+    website: 'http://www.facebook.com/cocknbulltoledo',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/cbull.jpg',
+    description: "Ye Olde Cock n' Bull boasts 34 draft beers, great food and live music most nights. Everything on our menu is priced below $10! We're the watering hole for the local's but our friendly patrons and staff are welcoming to all. Across from the main gate at 5/3 field. Open at 11AM Mon-Fri, 12PM Sat and Sun.",
+    member: true,
+    category_id: 1
+  })
+
+Restaurant.create({
+    name: 'Ye Olde Durty Bird',
+    address: '2 S. St. Clair St.',
+    phone: '419.243.2473',
+    website: 'http://www.facebook.com/pages/Ye-Olde-Durty-Bird/381204821904164',
+    logo_url: 'http://www.toledowarehouse.org/clientuploads/IMG958774.jpg',
+    description: 'A full restaurant and bar, Ye Olde Durty Bird offers a broad selection of burgers, fresh sandwiches, salads, soups and more. The gastropub also features weekly specials, frozen drinks and Happy Hour Monday through Friday from 4-7 p.m. Free live entertainment Wed-Sat night. Book your parties and special events here! Open daily at 11 a.m.',
+    member: true,
+    category_id: 1
+  })
